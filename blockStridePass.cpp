@@ -1,5 +1,5 @@
 #define debug_stride_pass false
-//===- Hello.cpp - Example code from "Writing an LLVM Pass" ---------------===//
+//===- DIrectly Imported from Hello.cpp - Example code from "Writing an LLVM Pass" ---------------===//
 //
 //                     The LLVM Compiler Infrastructure
 //
@@ -8,9 +8,10 @@
 //
 //===----------------------------------------------------------------------===//
 //
-// This file implements two versions of the LLVM "Hello World" pass described
-// in docs/WritingAnLLVMPass.html
-//
+// This file implements two versions of block stride computation 
+// the static version prints them at compile time, the runtime version prints only
+// at runtime.
+// Prithayan Barua
 //===----------------------------------------------------------------------===//
 #include "llvm/IR/DebugInfo.h"
 #include<iostream>
